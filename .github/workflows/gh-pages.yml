@@ -14,6 +14,8 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - uses: actions/checkout@v3
+      
       - name: Deploy Documentation
         uses: peaceiris/actions-gh-pages@v3
         # If you're changing the branch from main,
