@@ -1,0 +1,10 @@
+{
+  "viewOn" : {
+    "link" : "your-custom-base-url",
+    "title" : "View On Label"
+  },
+  "id" : "my-docs",
+  "title" : "Your Product",
+  "type" : "Guide",
+  "previewEnabled" : false
+}
